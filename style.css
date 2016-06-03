@@ -1,0 +1,27 @@
+.tile{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(0,100,200,0.3);
+    border: 2px black solid;
+}
+#grid-container{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: 600px;
+    width: 1000px;
+    background-color: blue;
+}
+.active{
+    background-color: red;
+}
+.selected{
+    background-color: black; !important;
+}
+.occupied{
+    background-color: brown;
+    border-radius: 50%;
+}
